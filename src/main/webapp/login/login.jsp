@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form name="form" action="${pageContext.request.contextPath}/index.jsp" method="post">
+  <%--	<form name="form" action="${pageContext.request.contextPath}/index.jsp" method="post"> --%>
+  
+	<form name="form" action="${pageContext.request.contextPath}/LoginServlet" method="post"> 
+	
 		<label for="nome">Nome:</label> <input type="text" id="nome"
 			name="nome" value="" size="30"> <br />
 		<br /> <label for="senha">Senha:</label> <input type="password"
